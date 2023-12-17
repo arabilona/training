@@ -1,0 +1,31 @@
+body {
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: #2E2F42;
+}
+
+header {
+    background-color: FFFFFF;
+}
+.navigation {
+    font-family: Roboto, sans-serif;
+    color: 2E2F42;
+    line-height: 24px;
+    font-size: 16px;
+}
+.main-section {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+.title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+.order {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+}
