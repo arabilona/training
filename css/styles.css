@@ -1,31 +1,119 @@
+<!--Body-->
+
 body {
         font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
         color: #2E2F42;
 }
 
+<!--Header-->
+
 header {
-    background-color: FFFFFF;
+    background-color: #FFFFFF;
 }
-.navigation {
+.navigation-list {
     font-family: Roboto, sans-serif;
-    color: 2E2F42;
-    line-height: 24px;
+    color: #2E2F42;
+    line-height: 1.5;
     font-size: 16px;
+    font-weight: 500;
 }
+.navigation-list:hover,
+.navigation-list:active {
+    color: #404BBF;
+}
+.adress-list {
+    color:#434455;
+
+}
+.adress-list:hover {
+    color: #404BBF;
+}
+
+<!--Main-->
+
 .main-section {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
 }
-.title {
+title {
     color: #FFFFFF;
+    line-height: 1.07;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
 }
 .order {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+}
+.order:hover {
+    background-color: #404BBF;
+}
 
+<!--Benefits-->
+
+.benefits {
+    background-color: #FFFFFF;
+}
+
+.benefits-title {
+    color: #2E2F42;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about-benefits {
+    color: #434455;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+<!--Team-->
+
+.team {
+    background-color: #F4F4FD;
+}
+.section-title {
+color: #2E2F42;
+line-height: 1.111;
+font-weight: 700;
+font-size: 36px;
+}
+.team-card {
+    background-color: #FFFFFF;
+}
+.title-third {
+    color: #2E2F42;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+}
+.job {
+    color: #434455;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+<!--Portfolio-->
+
+.goods {
+    background-color: #E7E9FC;
+}
+
+.footer {
+    background-color: #2E2F42;
+    width: 1440;
+    height: 312;
+}
+.footer-description {
+    color: #F4F4FD;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
 }
