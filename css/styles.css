@@ -3,6 +3,7 @@
 header {
     background-color: #FFFFFF;
 }
+
 .logo {
     font-family: "Raleway" sans-serif;
     font-style: normal;
@@ -33,42 +34,58 @@ header {
     letter-spacing: 0.03em;
     color: #2E2F42;
 }
-.navigation-list {
+
+.navigation-link {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
-.navigation-list:hover,
-.navigation-list:active {
+
+.navigation-link:hover {
     color: #404BBF;
 }
-.address-menu {
+
+.navigation-link:focus {
+    color: #404BBF;
+}
+
+.header-address {
     font-style: normal;
 }
+
 .address-list {
     color:#434455;
+    text-decoration: none;
 
 }
-.address-list:hover {
+.address-list:hover{
+    color: #404BBF;
+}
+
+.address-list:focus {
     color: #404BBF;
 }
 
 <!--Main-->
 
-.title {
-    color: #FFFFFF;
-    line-height: 1.07;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    text-align: center;
+.hero {
+    background-color: #2E2F42;
 }
-.order {
-    font-family: "Roboto", sans-serif;
+.hero-title {
+        color: #FFFFFF;
+        line-height: 1.07;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.hero-button {
     background-color: #4D5AE5;
+    font-family: inherit;
     color: #FFFFFF;
     line-height: 1.5;
     font-weight: 500;
@@ -76,15 +93,11 @@ header {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.order:hover {
+.hero-button:hover {
     background-color: #404BBF;
 }
 
 <!--Benefits-->
-
-.benefits {
-    background-color: #FFFFFF;
-}
 
 .benefits-title {
     color: #2E2F42;
@@ -93,6 +106,7 @@ header {
     font-size: 20px;
     letter-spacing: 0.02em;
 }
+
 .about-benefits {
     color: #434455;
     line-height: 1.5;
@@ -102,10 +116,12 @@ header {
 }
 
 <!--Team-->
+
 .team {
     color: #F4F4FD;
     background-color: #F4F4FD
 }
+
 .section-title {
 color: #2E2F42;
 line-height: 1.11;
@@ -115,9 +131,11 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+
 .team-card {
     background-color: #FFFFFF;
 }
+
 .title-third {
     color: #2E2F42;
     line-height: 1.2;
@@ -145,6 +163,7 @@ text-transform: capitalize;
     width: 1440;
     height: 312;
 }
+
 .footer-description {
     color: #F4F4FD;
     line-height: 1.5;
@@ -152,6 +171,7 @@ text-transform: capitalize;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
+
 .logo-accent-footer {
     font-family: "Raleway";
     font-style: normal;
