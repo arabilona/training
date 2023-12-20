@@ -39,7 +39,7 @@ header {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #f4f4fd;
+    color: #2E2F42;
 }
 .navigation-list {
     font-family: Roboto, sans-serif;
@@ -161,4 +161,23 @@ text-transform: capitalize;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+}
+.logo-accent-footer {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+
+.logo-accent-second-footer {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
 }
