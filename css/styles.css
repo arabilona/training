@@ -170,8 +170,6 @@ text-transform: capitalize;
 
 .footer {
     background-color: #2E2F42;
-    width: 1440;
-    height: 312;
 }
 
 .footer-description {
@@ -181,7 +179,7 @@ text-transform: capitalize;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.logo {
+.logo-footer {
     font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 700;
