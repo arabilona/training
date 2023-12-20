@@ -1,28 +1,31 @@
-<!--Header-->
-
-header {
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
+<!--Header-->
+
 .logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+    font-size: 18px;
+    line-height: 1.172;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #4d5ae5;
     text-decoration: none;
+    text-transform: uppercase
 }
 
 .logo-accent {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .logo-accent-second {
@@ -72,9 +75,6 @@ header {
 
 <!--Main-->
 
-.hero {
-    background-color: #2E2F42;
-}
 .hero-title {
         color: #FFFFFF;
         line-height: 1.07;
@@ -85,7 +85,7 @@ header {
 }
 .hero-button {
     background-color: #4D5AE5;
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     color: #FFFFFF;
     line-height: 1.5;
     font-weight: 500;
@@ -95,6 +95,10 @@ header {
 }
 .hero-button:hover {
     background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF
 }
 
 <!--Benefits-->
@@ -118,7 +122,6 @@ header {
 <!--Team-->
 
 .team {
-    color: #F4F4FD;
     background-color: #F4F4FD
 }
 
@@ -171,25 +174,33 @@ text-transform: capitalize;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.172;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+        text-decoration: none;
+        text-transform: uppercase
+}
 .logo-accent-footer {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    text-transform: uppercase
+    font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #2e2f42;
 }
 
 .logo-accent-second-footer {
     font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #F4F4FD;
-    text-transform: uppercase
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #2E2F42;
 }
