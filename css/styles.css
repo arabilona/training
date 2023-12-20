@@ -107,13 +107,17 @@ body {
 }
 
 <!--Benefits-->
-
+.benefits-title {
+    font-weight: 500;
+    font-size: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .about-benefits {
     color: #434455;
-    line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.02em;
 }
 
 <!--Team-->
@@ -195,5 +199,5 @@ text-transform: capitalize;
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #2E2F42;
+        color: #F4F4FD;
 }
