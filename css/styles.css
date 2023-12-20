@@ -1,9 +1,9 @@
 <!--Body-->
 
 body {
-        font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
-        color: #2E2F42;
+        color: #434455;
+        background-color: #FFFFFF;
 }
 
 <!--Header-->
@@ -11,29 +11,63 @@ body {
 header {
     background-color: #FFFFFF;
 }
+.logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-accent {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+
+.logo-accent-second {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #f4f4fd;
+}
 .navigation-list {
     font-family: Roboto, sans-serif;
     color: #2E2F42;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.02em
 }
 .navigation-list:hover,
 .navigation-list:active {
     color: #404BBF;
 }
-.adress-list {
+.address-menu {
+    font-style: normal;
+}
+.address-list {
     color:#434455;
 
 }
-.adress-list:hover {
+.address-list:hover {
     color: #404BBF;
 }
 
 <!--Main-->
 
 .main-section {
-    background-color: #2E2F42;
+    background-color: #2e2f42;
     width: 1440px;
     height: 600px;
 }
@@ -46,11 +80,14 @@ title {
     text-align: center;
 }
 .order {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #FFFFFF;
     line-height: 1.5;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .order:hover {
     background-color: #404BBF;
@@ -79,9 +116,6 @@ title {
 
 <!--Team-->
 
-.team {
-    background-color: #F4F4FD;
-}
 .section-title {
 color: #2E2F42;
 line-height: 1.11;
