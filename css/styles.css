@@ -13,6 +13,11 @@ ul {
 }
 
 /*-------Header--------*/
+.container {
+    width: 1128px;
+    margin: 0;
+    padding: 0 156px;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -36,6 +41,11 @@ ul {
         color: #2E2F42;
         text-decoration: none;
         text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
 }
 
 .navigation-link {
@@ -80,6 +90,8 @@ ul {
 
 .hero {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
 }
 
 .hero-title {
@@ -120,6 +132,12 @@ ul {
     overflow: hidden;
 }
 
+.benefits-list {
+    display: flex;
+    padding: 0 156px;
+    gap: 24px;
+    margin-top: 120px;
+}
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
@@ -133,6 +151,9 @@ ul {
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.02em;
+width: 264px;
+height: auto;
+padding-bottom: 120px;
 }
 
 /*--------Team------*/
@@ -146,11 +167,18 @@ color: #2E2F42;
 line-height: 1.11;
 font-weight: 700;
 font-size: 36px;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+padding-bottom: 120px;
+padding-top: 120px;
+text-align: center;
 }
-
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
 .team-card {
     background-color: #FFFFFF;
 }
@@ -163,6 +191,7 @@ text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    text-align: center;
 
 }
 
@@ -171,8 +200,25 @@ text-transform: capitalize;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    padding: 32px 0;
+    text-align: center;
 }
 
+.portfolio {
+    width: 1128px;
+}
+.goods-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
+.goods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .portfolio-title {
     color: #2E2F42;
         line-height: 1.11;
@@ -181,6 +227,8 @@ text-transform: capitalize;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
 /*-------Footer--------*/
