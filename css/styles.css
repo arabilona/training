@@ -14,7 +14,7 @@ ul {
 
 /*-------Header--------*/
 .container {
-    width: 1158px;
+    max-width: 1158px;
     height: auto;
     margin: 0 auto;
     padding: 0 15px;
@@ -35,7 +35,6 @@ ul {
         color: #4d5ae5;
         text-decoration: none;
         text-transform: uppercase;
-        margin-right: 76px;
 }
 
 .logo-accent-second {
@@ -110,7 +109,7 @@ li: :last-child {
     width: 1158px;
     height: auto;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 188px 0;
     display: block;
 }
 .hero {
@@ -128,7 +127,6 @@ li: :last-child {
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        padding: 188px 0;
 }
 
 .hero-button {
@@ -144,6 +142,7 @@ li: :last-child {
     border: none; 
     border-radius: 4px;
     margin: 48px 635px 188 px 635px;
+    min-width: 169px;
 }
 .hero-button:hover {
     background-color: #404BBF;
